@@ -24,7 +24,7 @@
     end 
 
     def full?(board)
-      board? == " "
+      board.all?{ |input| input == }
     end 
     
     
