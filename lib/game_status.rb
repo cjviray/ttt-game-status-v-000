@@ -28,7 +28,7 @@
     end 
     
     def draw?(board) 
-      board.full? && 
+      board.full? && !won?
     end 
     
     
