@@ -23,7 +23,7 @@
       end 
     end 
 
-
+    def full? 
     
     
 
