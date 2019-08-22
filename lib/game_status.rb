@@ -32,7 +32,7 @@
     end 
     
     def over?(board)
-      draw?(board) || won?(board) ||
+      draw?(board) || won?(board)
     end 
     
    
