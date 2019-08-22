@@ -39,7 +39,8 @@
       if winning_combo = won? 
       board[winning_combo.first]
       end
-    end 
+    end
+end 
 
 
     
