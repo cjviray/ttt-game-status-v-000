@@ -32,7 +32,7 @@
     end 
     
     def over? 
-      
+      draw?(board)
     end 
     
     
