@@ -35,7 +35,8 @@
       draw?(board) || won?(board) ||
     end 
     
-    
+    def winner? 
+    end
 
     
     
