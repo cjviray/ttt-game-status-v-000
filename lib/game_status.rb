@@ -23,7 +23,7 @@
       end 
     end 
 
-    def full?
+    def full?(board)
       board? == " "
     end 
     
