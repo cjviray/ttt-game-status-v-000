@@ -18,8 +18,14 @@
       ]
       
     def won?(board)
-         board[combo[0]] == "X" && board[combo[1]] == "X" && board[combo[2]] == "X" ||  board[combo[0]] == "O" && board[combo[1]] == "O" && board[combo[2]] == "O" 
-
+     WIN_COMBINATIONS.detect do |combo|
+      @board.combo[winner[0]] && @board.combo[winner[1] && @board.combo[winner[2]] == 
+      
+      
+      
+      
+      @board.combo[winner[2]] && 
+      (@board.combo[winner[0]] == "X" || @board.combo[winner[0]] == "O")
       end 
     end 
 
