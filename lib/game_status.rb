@@ -27,7 +27,8 @@
       board.all?{ |input| input != " " }
     end 
     
-    def 
+    def draw? 
+    end 
     
     
 
