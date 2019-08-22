@@ -32,7 +32,8 @@
     end 
     
     def over? 
-      en
+      
+    end 
     
     
 
