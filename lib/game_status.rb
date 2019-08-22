@@ -31,6 +31,9 @@
       full?(board) && !won?(board)
     end 
     
+    def over? 
+      en
+    
     
 
     
